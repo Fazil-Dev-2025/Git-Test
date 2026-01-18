@@ -99,4 +99,4 @@ PS D:\Langchain\Git Test> Get-History
   95 clear
   96 git remote -av
   97 git branch -av
-  98 clear
+-------------------------------------------------
