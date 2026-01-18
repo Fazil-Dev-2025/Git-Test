@@ -50,3 +50,53 @@ PS D:\Langchain\Git Test> Get-History
   46 git remote
   47 git push orgin Slave_branch
   48 clear
+  49 Get-History
+  50 clear
+  51 get-history
+  52 clear
+  53 git add .
+  54 git log
+  55 clear
+  56 git branch -av
+  57 git branch -m Slave_No1
+  58 git branch -b
+  59 git branch -a
+  60 clear
+  61 git branch -a
+  62 git checkout -b Slave_No2
+  63 git branch -v
+  64 clear
+  65 $ git config --global color.ui auto
+  66 git branch -v
+  67 git push orgin Slave_No1
+  68 clear
+  69 git push orgin
+  70 git push orgin Slave_No2
+  71 git remote -a
+  72 git remote -v
+  73 clear
+  74 git branch -av
+  75 git push -u orgin Slave_No2
+  76 git push -u orgin Slave_No1
+  77 clear
+  78 git branch -av
+  79 git branch -d Slave_branch
+  80 git add .
+  81 git log
+  82 git status
+  83 git add .
+  84 git commit "First commit on slaveNo2 branch"
+  85 git commit -m "First commit on slaveNo2 branch"
+  86 clear
+  87 git push origin
+  88 git log
+  89 git push origin Slave_No2
+  90 git push orgin Slave_No2
+  91 git log
+  92 git push remote --delete Slave_branch
+  93 git push remote orgin --delete Slave_branch
+  94 git push orgin --delete Slave_branch
+  95 clear
+  96 git remote -av
+  97 git branch -av
+  98 clear

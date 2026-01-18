@@ -6,3 +6,4 @@
 6. To merge with other branch - " git merge MasterBranch " This will merge the current branch to Masterbranch 
 
 7. To rename current branch give - "git branch -m New_BranchName"
+8. To remove old branch in Remote repo " git push orgin --delete Branch_name"
