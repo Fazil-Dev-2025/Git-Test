@@ -1,7 +1,8 @@
-1. To list all available branch " git branch -a "
-2. To list all available branch on local and remote " git branch -av"
-3. To create new branch " git checkout -b Branch_name "
-4. To switch branch " git checkout Branch_name"
-5. To delete a branch in local " git branch -d Branch_name "
-6. To merge with other branch " git merge MasterBranch " This will merge the current branch to Masterbranch 
-7. 
+1. To list all available branch - " git branch -a "
+2. To list all available branch on local and remote - " git branch -av"
+3. To create new branch - " git checkout -b Branch_name "
+4. To switch branch - " git checkout Branch_name"
+5. To delete a branch in local - " git branch -d Branch_name "
+6. To merge with other branch - " git merge MasterBranch " This will merge the current branch to Masterbranch 
+
+7. To rename current branch give - "git branch -m New_BranchName"

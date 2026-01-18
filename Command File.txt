@@ -1,63 +1,52 @@
-PS D:\Langchain\Git Test> git add .
-PS D:\Langchain\Git Test> git commit -m "First commit"
-[master (root-commit) 3e92634] First commit
- 1 file changed, 1 insertion(+)
- create mode 100644 testfile1.txt
-PS D:\Langchain\Git Test> git remote add orgin "https://github.com/Fazil-Dev-2025/Git-Test.git"
-PS D:\Langchain\Git Test> git branch -a
-* master
-PS D:\Langchain\Git Test> git push orgin master
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 234 bytes | 117.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-To https://github.com/Fazil-Dev-2025/Git-Test.git
- * [new branch]      master -> master
-PS D:\Langchain\Git Test> git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   testfile1.txt
+PS D:\Langchain\Git Test> Get-History    
 
-no changes added to commit (use "git add" and/or "git commit -a")
-PS D:\Langchain\Git Test> git add .
-PS D:\Langchain\Git Test> git add .
-PS D:\Langchain\Git Test> git add .
-PS D:\Langchain\Git Test> git status
-On branch master
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   testfile1.txt
-
-PS D:\Langchain\Git Test> git commit -m "git second update"
-[master d3998de] git second update
- 1 file changed, 16 insertions(+), 1 deletion(-)
-PS D:\Langchain\Git Test> git push origin master
-fatal: 'origin' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-PS D:\Langchain\Git Test> git push orgin master 
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 639 bytes | 319.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-To https://github.com/Fazil-Dev-2025/Git-Test.git
-   3e92634..d3998de  master -> master
-PS D:\Langchain\Git Test> git log
-commit d3998de5bc9eab8a066eda44419afc0d05aeabb7 (HEAD -> master, orgin/master)
-Author: Fazil <mfazil24686@gmail.com>
-Date:   Sun Jan 18 19:09:45 2026 +0530
-
-    git second update
-
-commit 3e9263409f3d4b9780dc605387404b1ce95872ff
-Author: Fazil <mfazil24686@gmail.com>
-Date:   Sun Jan 18 18:56:20 2026 +0530
-
-    First commit
-PS D:\Langchain\Git Test> 
+  Id CommandLine
+  -- -----------
+   1 try { . "Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" }...
+   2 git init
+   3 ls
+   4 cat > testfile1.txt
+   5 clear
+   6 git add .
+   7 git commit -m "First commit"
+   8 git remote add orgin "https://github.com/Fazil-Dev-2025/Git-Test.git"
+   9 git branch -a
+  10 git push orgin master
+  11 git status
+  12 git add .
+  13 git add .
+  14 git add .
+  15 git status
+  16 git commit -m "git second update"
+  17 git push origin master
+  18 git push orgin master
+  19 git log
+  20 git add .
+  21 git commit -m "git third update - command file added"
+  22 git push
+  23 git push orgin master
+  24 git status
+  25 git log
+  26 clear
+  27 git checkout Slave
+  28 git checkout Slavebranch
+  29 git checkout -b Slave_branch
+  30 clear
+  31 git add .
+  32 git branch -a
+  33 git branch -av
+  34 git remote
+  35 git remote -v
+  36 git remote
+  37 git remote -v
+  38 clear
+  39 git branch -a
+  40 git log
+  41 git add .
+  42 git add .
+  43 git commit -m "First commit on slave branch (with branch and remote command file)"
+  44 git push
+  45 git branch -a
+  46 git remote
+  47 git push orgin Slave_branch
+  48 clear
