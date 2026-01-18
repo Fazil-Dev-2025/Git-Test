@@ -19,6 +19,7 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   testfile1.txt
+PS D:\Langchain\Git Test> Get-History    
 
 no changes added to commit (use "git add" and/or "git commit -a")
 PS D:\Langchain\Git Test> git add .
@@ -60,4 +61,108 @@ Author: Fazil <mfazil24686@gmail.com>
 Date:   Sun Jan 18 18:56:20 2026 +0530
 
     First commit
-PS D:\Langchain\Git Test> 
+
+
+
+PS D:\Langchain\Git Test> Get-History    
+
+  Id CommandLine
+  -- -----------
+   1 try { . "Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" }...
+   2 git init
+   3 ls
+   4 cat > testfile1.txt
+   5 clear
+   6 git add .
+   7 git commit -m "First commit"
+   8 git remote add orgin "https://github.com/Fazil-Dev-2025/Git-Test.git"
+   9 git branch -a
+  10 git push orgin master
+  11 git status
+  12 git add .
+  13 git add .
+  14 git add .
+  15 git status
+  16 git commit -m "git second update"
+  17 git push origin master
+  18 git push orgin master
+  19 git log
+  20 git add .
+  21 git commit -m "git third update - command file added"
+  22 git push
+  23 git push orgin master
+  24 git status
+  25 git log
+  26 clear
+  27 git checkout Slave
+  28 git checkout Slavebranch
+  29 git checkout -b Slave_branch
+  30 clear
+  31 git add .
+  32 git branch -a
+  33 git branch -av
+  34 git remote
+  35 git remote -v
+  36 git remote
+  37 git remote -v
+  38 clear
+  39 git branch -a
+  40 git log
+  41 git add .
+  42 git add .
+  43 git commit -m "First commit on slave branch (with branch and remote command file)"
+  44 git push
+  45 git branch -a
+  46 git remote
+  47 git push orgin Slave_branch
+  48 clear
+  49 Get-History
+  50 clear
+  51 get-history
+  52 clear
+  53 git add .
+  54 git log
+  55 clear
+  56 git branch -av
+  57 git branch -m Slave_No1
+  58 git branch -b
+  59 git branch -a
+  60 clear
+  61 git branch -a
+  62 git checkout -b Slave_No2
+  63 git branch -v
+  64 clear
+  65 $ git config --global color.ui auto
+  66 git branch -v
+  67 git push orgin Slave_No1
+  68 clear
+  69 git push orgin
+  70 git push orgin Slave_No2
+  71 git remote -a
+  72 git remote -v
+  73 clear
+  74 git branch -av
+  75 git push -u orgin Slave_No2
+  76 git push -u orgin Slave_No1
+  77 clear
+  78 git branch -av
+  79 git branch -d Slave_branch
+  80 git add .
+  81 git log
+  82 git status
+  83 git add .
+  84 git commit "First commit on slaveNo2 branch"
+  85 git commit -m "First commit on slaveNo2 branch"
+  86 clear
+  87 git push origin
+  88 git log
+  89 git push origin Slave_No2
+  90 git push orgin Slave_No2
+  91 git log
+  92 git push remote --delete Slave_branch
+  93 git push remote orgin --delete Slave_branch
+  94 git push orgin --delete Slave_branch
+  95 clear
+  96 git remote -av
+  97 git branch -av
+-------------------------------------------------

@@ -1,0 +1,13 @@
+1. To track all the changes we use - " git reflog " 
+2. For switching branch we can use " git switch Branch_name " or " git checkout Branch_Name "
+3. For merging example to merge Slave_No1 branch to Slave_No2 branch  ->
+        -> Switch to Slave_No2 branch first by " git switch Slave_No2 "
+        -> then give " git merge Slave_No1"
+        if conflict is there we need to manually merge from Github.com UI 
+
+
+4. To reset all to previous version give - "git reset [file] or hash_value"
+
+5. To Show any object in Git in human-readable format give - "git show HashKey"
+
+6. To Show the diff of what is in branchA that is not in branchB -  "git diff branchB...branchA"

@@ -1,0 +1,7 @@
+1. We can set the name for remote repo url by 
+"git remote add alias_name https://github.com/Fazil-Dev-2025/Git-Test.git" 
+2. To get the remote repo alias name use " git remote"
+and for names and URLs of the remote repositories give " git remote -v"
+3. To remove repo give " git remote rm Alias_name "
+
+4. To Fetch and merge any commits from the tracking remote branch - " git pull " 
