@@ -1,1 +1,16 @@
-This is Test 1 file 
+This is the Test1 file
+
+Steps to start git 
+- Set the user name and email by 
+git config  --global user.name "Fazil"
+git config  --global user.email "Fazil@gmail.com"
+
+
+1. To initiate .git "git init"
+2. Create whatever files need to be in remote and local 
+3. To add those file in stagging area - "git add ."
+4. Commit those files before pushing to origin " git commit -m "Comments" " 
+5. Set the origin by " git remote add origin "https://github.com/Fazil-Dev-2025/Git-Test.git" "
+6. Now we can push the file to remote repo by " git push origin master" 
+7. To check the status give " git status " which will show tracked and untracked files, Branch name as well
+8. To now the commit history give " git log " or " git reflog " 
