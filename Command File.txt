@@ -1,0 +1,63 @@
+PS D:\Langchain\Git Test> git add .
+PS D:\Langchain\Git Test> git commit -m "First commit"
+[master (root-commit) 3e92634] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testfile1.txt
+PS D:\Langchain\Git Test> git remote add orgin "https://github.com/Fazil-Dev-2025/Git-Test.git"
+PS D:\Langchain\Git Test> git branch -a
+* master
+PS D:\Langchain\Git Test> git push orgin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 234 bytes | 117.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Fazil-Dev-2025/Git-Test.git
+ * [new branch]      master -> master
+PS D:\Langchain\Git Test> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   testfile1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Langchain\Git Test> git add .
+PS D:\Langchain\Git Test> git add .
+PS D:\Langchain\Git Test> git add .
+PS D:\Langchain\Git Test> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   testfile1.txt
+
+PS D:\Langchain\Git Test> git commit -m "git second update"
+[master d3998de] git second update
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+PS D:\Langchain\Git Test> git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS D:\Langchain\Git Test> git push orgin master 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 639 bytes | 319.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Fazil-Dev-2025/Git-Test.git
+   3e92634..d3998de  master -> master
+PS D:\Langchain\Git Test> git log
+commit d3998de5bc9eab8a066eda44419afc0d05aeabb7 (HEAD -> master, orgin/master)
+Author: Fazil <mfazil24686@gmail.com>
+Date:   Sun Jan 18 19:09:45 2026 +0530
+
+    git second update
+
+commit 3e9263409f3d4b9780dc605387404b1ce95872ff
+Author: Fazil <mfazil24686@gmail.com>
+Date:   Sun Jan 18 18:56:20 2026 +0530
+
+    First commit
+PS D:\Langchain\Git Test> 
